@@ -1,1 +1,2 @@
 # MathVector-Matrix
+This repository is a work in progress to design my own Math vector and Math matrix classes that are both easy to use while at same time do not sacrifice performance. To accomplish this, I overload the math operators of each class to make calls to the BLAS++ library. The BLAS++ library is an open-source library that uses to C++ templates to perform calls to BLAS (a highly optimized vector/matrix library written in Fortran).
